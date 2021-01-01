@@ -17,7 +17,7 @@ text_label2 = tk.Label(master=windows1, text='เวลาปัจจุบั�
 text_label2.pack(padx=10, pady=5)
 
 tree = ttk.Treeview(master=windows1)
-tree["columns"]=("one", "two", "three")
+tree["columns"] = ("one", "two", "three")
 
 tree.column("#0", width=80, minwidth=80, stretch=tk.NO)
 tree.column("one", width=200, minwidth=200, stretch=tk.NO)
