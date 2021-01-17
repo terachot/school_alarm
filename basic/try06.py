@@ -1,8 +1,11 @@
-for i in range(3):
+for i in range(1,10):
+    if i == 5:
+        break
     print(i)
 
-for i in range(1,3):
+while(i>0):
     print(i)
+    i -= 1
 
 #continue
 #break
