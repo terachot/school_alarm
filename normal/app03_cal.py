@@ -3,9 +3,9 @@ import tkinter
 
 def add(x):
     # เพิ่มเลข
-    num_show: str
-    num_show = text_label1['text'] + str(x)
-    text_label1.configure(text=num_show)
+    number: str
+    number = text_label1['text'] + str(x)
+    text_label1.configure(text=number)
 
 
 def clr():
